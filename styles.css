@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body h1{
+    color: #3C2C3E;
+    font-size: 4rem;
+    margin-bottom: .1rem;
+}
+
+body div{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body input{
+    border-radius: 5px;
+    border: transparent;
+    height: 3rem;
+    margin-bottom: 0rem;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+button{
+    background-color:  #066163;
+    color: #F2F2F2;
+    font-size: 2rem;
+    font-weight: 650;
+    width: 10rem;
+    height: 4rem;
+    border: solid 1.5px black;
+    border-radius: 18px;
+}
+
+#body--card-container{
+    display: flex;
+    justify-content: center;
+    background-color: #BDF2D5;
+    width: 50rem;
+    height: 25rem;
+    border-radius: 28px;
+    border: solid 2px #4B5D67;
+
+}
